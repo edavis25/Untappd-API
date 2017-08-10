@@ -4,8 +4,8 @@
 
 class Untappd {
 
-    protected $token;
-    protected $email;
+    public $token;
+    public $email;
     public $url = 'https://business.untappd.com/api/v1/';
 
     public function __construct($email, $token) {
